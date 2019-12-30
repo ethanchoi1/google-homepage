@@ -38,6 +38,7 @@ li a:hover {
 	right: 100px;
 }
 
+
 #grid {
 	position: absolute;
 	width: 17%;
@@ -46,6 +47,11 @@ li a:hover {
 	height: auto;
 	float: right;
 	opacity: 50%;
+}
+
+#grid:hover {
+	opacity: 100%;
+	cursor: pointer;
 }
 
 #sign_in {
@@ -125,17 +131,12 @@ li a:hover {
 	text-align: center;
 	padding: 10px 16px;
 	left: 140px;
-	transition-duration: 0.4s;
 }
 
-.things .filler #google_search:hover {
+.things .filler #google_search:hover, .things .filler #feeling_lucky:hover {
 	border: 1px solid lightgray;
 	color: black;
-}
-
-.things .filler #feeling_lucky:hover {
-	border: 1px solid lightgray;
-	color: black;
+	cursor: pointer;
 }
 
 .footer {
