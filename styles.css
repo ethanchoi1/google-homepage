@@ -1,0 +1,200 @@
+.header ul {
+	margin-top: 20px;
+	background-color: transparent;
+	font-family: Arial;
+	position: relative;
+}
+
+.header li {
+	display: inline;
+	font-size: small;
+	margin: 10px 10px 10px 0px;
+}
+
+.header #about {
+	margin-left: -20px;
+}
+
+.header #store {
+	margin-left: 5px;
+}
+
+li a {
+	color: #3f3f3f;
+	text-decoration: none;
+}
+
+li a:hover {
+	text-decoration: underline;
+}
+
+.header_right {
+	position: absolute;
+	right: 140px;
+	top: 0px;
+}
+
+.header_right li a {
+	right: 100px;
+}
+
+#grid {
+	position: absolute;
+	width: 17%;
+	top: 2px;
+	left: 115px;
+	height: auto;
+	float: right;
+	opacity: 50%;
+}
+
+#sign_in {
+	position: absolute;
+	top: -5px;
+	left: 150px;
+	width: 75px;
+	color: #d6ffff;
+	font-size: 13px;
+	font-weight: bold;
+	background-color: #4386f9;
+	border: none;
+	padding: 7px 0px;
+}
+
+#main_logo {
+	display: block;
+	padding: none;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	width: 14.25%;
+	margin-top: 160px;
+}
+
+.things {
+	position: relative;
+	background-color: transparent;
+	margin: 0px auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.things input {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 30px;
+	width: 600px;
+	height: 45px;
+	font-size: large;
+	background-color: white;
+	border: solid lightgray 1px;
+}
+
+.things input:hover {
+	border: solid darkgray 1px;
+}
+
+.things .filler {
+	background-color: transparent;
+	position: absolute;
+	width: 300px;
+	height: 10px;
+	top: 100px;
+}
+
+.things .filler #google_search {
+	display: block;
+	position: absolute;
+	font-size: 14px;
+	border: none;
+	color: #71678a;
+	background-color: #f4f4f4;
+	text-align: center;
+	padding: 10px 16px;
+}
+
+.things .filler #feeling_lucky {
+	display: block;
+	position: absolute;
+	font-size: 14px;
+	border: none;
+	color: #71678a;
+	background-color: #f4f4f4;
+	text-align: center;
+	padding: 10px 16px;
+	left: 140px;
+	transition-duration: 0.4s;
+}
+
+.things .filler #google_search:hover {
+	border: 1px solid lightgray;
+	color: black;
+}
+
+.things .filler #feeling_lucky:hover {
+	border: 1px solid lightgray;
+	color: black;
+}
+
+.footer {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	background-color: #f2f2f2;
+	width: 10000px;
+	height: 42px;
+}
+
+.footer ul {
+	position: relative;
+	margin-top: 10px;
+	background-color: transparent;
+	font-family: Arial;
+}
+
+.footer li {
+	display: inline;
+	font-size: small;
+}
+
+.footer li a {
+	color: #756b81;
+}
+
+.footer #advertising {
+	margin-left: -10px;
+}
+
+.footer #business {
+	margin-left: 20px;
+}
+
+.footer #how_search_works {
+	margin-left: 20px;
+}
+
+.footer_right {
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	background-color: transparent;
+	height: 40px;
+}
+
+.footer_right ul {
+	margin-top: 10px;
+}
+
+.footer_right #privacy {
+	margin-right: 23px;
+}
+
+.footer_right #terms {
+	margin-right: 23px;
+}
+
+.footer_right #settings {
+	margin-right: 30px;
+}
